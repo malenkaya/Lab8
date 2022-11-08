@@ -6,6 +6,6 @@ def summa(a , b):
     return a+b
 
 a = int(input("Введите первое число : "))
-print("Сумма двух чисел = ",summa(a,b))
+print("Сумма двух чисел = ",(a))
 
 #3 commit
