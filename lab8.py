@@ -8,7 +8,7 @@ def summa(a , b):
 a = int(input("Введите первое число : "))
 b = int(input("Введите второе число : "))
 print("Сумма двух чисел = ",summa(a,b))
-"""
+
 # Добавляем новуя функция и перемещяем его в новую ветку
 def intervalArray(a,b):
     A = set()
@@ -17,6 +17,10 @@ def intervalArray(a,b):
     return sorted(A)
 
 
-a = int(input("Введите начальную точку : "))
-b = int(input("Введите окончательную точку : "))
-print(intervalArray(a,b))
+aa = int(input("Введите начальную точку : "))
+bb = int(input("Введите окончательную точку : "))
+print(intervalArray(aa,bb))
+
+
+#3 commit
+
